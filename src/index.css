@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply text-white;
+}
+
+#root, body, html {
+  @apply h-full;
+}
+
+body{
+  @apply bg-slate-700;
+  /* @apply p-3; */
+  /* @apply ; */
+}
